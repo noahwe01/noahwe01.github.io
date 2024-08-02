@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noah Yannik Weber</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2c2c2c;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #e74c3c;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-style: italic;
+            margin: 5px 0 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: #f0f0f0;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #e74c3c;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h2 {
+            border-bottom: 2px solid #e74c3c;
+            padding-bottom: 10px;
+        }
+        .content p {
+            line-height: 1.6;
+        }
+        .sub-section {
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #1a1a1a;
+            text-align: center;
+            padding: 10px;
+            border-top: 3px solid #e74c3c;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Noah Yannik Weber</h1>
+        <p>What makes people attractive are their edges and corners</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#photography">Photography</a>
+        <a href="#film">Film</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="content" id="home">
+        <h2>Home</h2>
+        <p>Welcome to my personal website! I am Noah Yannik Weber, and this is the place where I share my passion for photography and film. Dive in and discover more about my work and projects.</p>
+    </div>
+    <div class="content" id="photography">
+        <h2>Photography</h2>
+        <p>Photography is a way for me to see the world through my lens and capture moments for eternity.</p>
+        <div class="sub-section" id="locations">
+            <h3>Locations</h3>
+            <p>Here you will find a selection of my favorite places where I have photographed. Each location has its own story and atmosphere that I aim to capture in my images.</p>
+        </div>
+    </div>
+    <div class="content" id="film">
+        <h2>Film</h2>
+        <p>Film is an art form that conveys emotions and stories in a unique way. Here you will find my works and projects in the field of film.</p>
+    </div>
+    <div class="content" id="contact">
+        <h2>Contact</h2>
+        <p>Do you have questions or want to collaborate with me? Feel free to contact me through the following form:</p>
+        <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 Noah Yannik Weber. All rights reserved.</p>
+    </footer>
+</body>
+</html>
